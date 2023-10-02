@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "module": "commonjs",
+    "lib": ["ESNext", "DOM"],
+    "jsx": "preserve",
+    "target": "es2020",
+    "noImplicitAny": false,
+    "outDir": "dist"
+  }
+}
