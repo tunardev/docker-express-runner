@@ -23,7 +23,7 @@ app.get('/health', (req: Request, res: Response) => {
 });
 
 // start server
-const port = 3000 || parseInt(process.env.PORT as string);
+const port = parseInt(process.env.PORT as string) || 3000;
 app.listen(port, () => {
   console.log(`Server is running on port ${port}`);
 });
